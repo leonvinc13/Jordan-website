@@ -1,0 +1,750 @@
+*{
+    font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #000;
+    margin: 0;
+}
+
+h1, h2{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+  
+header {
+    background-color: #ce1141;
+    color: #fff;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+}
+  
+#logo {
+    width: 100px;
+    margin-left: 2%;
+    height: auto;
+}
+  
+nav ul {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+  
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 25px;
+    transition: all 0.8s;
+}
+
+nav a:hover {
+  background-color: #000;
+  color: #fff;
+  transform: all 0.2;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.naslovna {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.naslovna img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.poglavlja {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 30px 40px;
+    border-left: 6px solid #ce1141;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 420px;
+}
+
+.poglavlja h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.poglavlja ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.poglavlja li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.poglavlja li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.poglavlja li a:hover{
+    color: #ce1141;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mladost{
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.mladost-tekst, .nba-tekst, .air-jordan, .naslijede-tekst{  
+    color: black; 
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.mladost-tekst{
+    float:left;
+    width: 59%;
+}
+
+h2 {
+    color: black; 
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.mladost-slika {
+    float: right;
+    width: 35%; 
+    margin: 20px;
+}
+
+i {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+b {
+    color: #ce1141; 
+}
+  
+.nba{
+    clear: both;
+}
+
+.nba-tekst{
+    float:right;
+    width: 59%;
+}
+
+.nba-slika{
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+
+.air-jordan{
+    clear: both;
+    float: left;
+    width: 47%;
+}
+
+.air-jordan-slika{
+    width: 100%;
+}
+
+.shop {
+    clear: both;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.shop a {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.shop a:hover {
+    background-color: white;
+    color: #ce1141;
+    border: 2px solid #ce1141;
+}
+
+.naslijede{
+    width: 47%;
+    float: right;
+}
+
+.naslijede-slika{
+    width: 100%;
+}
+
+.mj-citat {
+    background-color: #fff;
+    color: #ce1141;
+    font-style: italic;
+    border-left: 6px solid #ce1141;
+    margin: 30px 0;
+    padding: 20px 30px;
+    font-size: 1.2em;
+    line-height: 1.4;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.mj-citat div {
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    color: #000;
+}
+
+.air-jordan, .naslijede {
+    margin-bottom: 60px; 
+}
+
+.tablica{
+    text-align: center;
+    clear: both;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ce1141;
+    color: white;
+}
+
+footer {
+    clear: both;
+    background-color: #ce1141;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/*Kontakt*/
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+
+.forma{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#ime, #email, #lozinka, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select{
+    width: 60%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+#submit, #reset{
+    background-color: #ce1141;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit:hover, #reset:hover{
+    background-color: #a00e34;;
+}
+
+.email-link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.email-link a {
+    color: #ce1141;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email-link a:hover{
+    color: #000;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-buttons input {
+    margin: 0 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.map{
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/*O-nama*/
+#sadrzaj {
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    width: 300px;
+    height: 880px;
+    background-color: #ce1141;
+    color: white;
+    padding: 20px;
+    z-index: 1;
+}
+
+.sidebar h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.glavni {
+    position: absolute;
+    top: 140px;
+    left: 340px;
+    width: 1100px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.sekcija {
+    margin-bottom: 40px;
+}
+
+.sekcija h2 {
+    color: #ce1141;
+    margin-bottom: 15px;
+}
+
+.sekcija iframe {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.citat {
+    position: fixed;
+    bottom: 30px;
+    left: 60px;
+    width: 15%;
+    background-color: #ce1141;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.footer {
+    position: absolute;
+    top: 1100px; 
+    width: 100%;
+    background-color: #ce1141;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+/*Novosti*/
+.aside{
+    overflow: auto;
+    text-align: center;
+}
+
+.aside ul{
+    list-style: none;
+    text-align: right;
+    background-color: #ce1141;
+    color: white;
+    padding: 20px;
+}
+
+.aside ul li{
+    padding: 2px;
+}
+
+aside h1{
+    float: left;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+aside h2{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.kategorije {
+    float: right;
+}
+
+.kategorije a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.kategorije a:hover{
+    color: black;
+}
+
+.container{
+    padding: 20px;
+}
+
+.objava{
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.objava h1{
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.objava p{
+    margin-bottom: 20px;
+}
+
+.objava img{
+    width: 100%;
+}
+
+.objava a{
+    text-decoration: none;
+    color: white;
+    background-color: #ce1141;
+    padding: 10px 20px;
+    border-radius: 0 20px 0 20px;
+    transition: all  0.2s;
+}
+
+.objava a:hover{
+    background-color: black;
+}
+
+.kategorija{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ce1141;
+    margin-bottom: 10px;
+}
+
+
+/*Trgovina*/
+
+.banner {
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.banner h1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.proizvodi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.kartica {
+    background: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.kartica img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.kartica .sadrzaj {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.naziv {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.opis {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.cijena {
+    margin-bottom: 10px;
+}
+
+.akcija {
+    color: red;
+    font-weight: bold;
+}
+
+.stara-cijena {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+
+.kartica a {
+    padding: 10px;
+    background-color: #d10000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.4s ease;
+    text-decoration: none;
+    width: 80%;
+}
+
+.kartica a:hover {
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 50px;
+        text-align: left;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .logo{
+        width: auto;
+    }
+
+    #logo{
+        margin-left: auto;
+        text-align: center;
+    }
+
+    nav ul li a {
+        padding: 10px 100px;
+        text-decoration: none;
+    }
+
+    /*Naslovna*/
+    .content {
+        width: 100%;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mladost-tekst, .mladost-slika, .nba-tekst, .nba-slika, .air-jordan, .naslijede, .naslijede-slika{
+        width: 100%;
+    }
+
+    .nba-slika{
+        margin: auto;
+    }
+
+    .mladost-slika{
+        float: none;
+        margin: auto;
+    }
+
+    /*Kontakt*/
+    .container {
+        width: 100%;
+    }
+
+
+
+    /*O nama*/
+    #sadrzaj {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .glavni {
+        position: static;
+        width: 100%;
+    }
+
+    .sekcija {
+        position: static;
+    }
+
+    .footer{
+        position: static;
+        width: 100%;
+    }
+
+    .citat{
+        left: auto;
+        right: 60px;
+        bottom: 100px;
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 300px){
+    nav ul li a {
+        padding: 10px 10px;
+    }
+}
+
+
+
+
+  

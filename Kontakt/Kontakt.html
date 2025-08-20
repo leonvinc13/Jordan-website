@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktirajte nas za dodatne informacije o Michaelu Jordanu. Pošaljite upit putem forme ili direktno na e-mail.">
+    <meta name="keywords" content="kontakt, Michael Jordan, upit, forma, e-mail, fan stranica">
+    <meta name="author" content="Leon Vincelj">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.png" alt="" id="logo">
+            </div>
+            <ul>
+                <li><a href="../Naslovnica.html">Naslovnica</a></li> 
+                <li><a href="Kontakt.html">Kontakt</a></li> 
+                <li><a href="../O-nama.html">O nama</a></li>  
+                <li> <a href="../Novosti.html"> Novosti </a></li> 
+                <li> <a href="../Trgovina.html"> Trgovina </a></li> 
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="container">
+            <form>
+                <div class="forma">
+                    <h2>Pošalji upit</h2>
+                    <label>Ime i prezime:</label>
+                    <input type="text" id="ime" name="ime" placeholder="Ime i prezime" required>
+        
+                    <label>Email adresa:</label>
+                    <input type="email" id="email" name="email" placeholder="mail@domain" required>
+
+                    <label>Lozinka:</label>
+                    <input type="password" id="lozinka" name="lozinka" placeholder="Lozinka" required>
+        
+                    <label>Tema poruke:</label>
+                    <select id="tema" name="tema">
+                        <option value="opcenito">Općenito</option>
+                        <option value="mj-mladost">Mladost Michaela Jordana</option>
+                        <option value="mj-statistika">Statistika Michaela Jordana</option>
+                        <option value="air-jordan">Air Jordan brend</option>
+                    </select>
+        
+                    <label>Poruka:</label>
+                    <textarea id="poruka" name="poruka" required></textarea>
+        
+                    <label>
+                        <input type="checkbox" name="slazem_se" value="da"> Slažem se s uvjetima korištenja
+                    </label>
+        
+                    <div class="form-buttons">
+                        <input id="reset" type="reset" value="Poništi">
+                        <input id="submit" type="submit" value="Pošalji">
+                    </div>
+                </div>
+                
+            </form>
+    
+            <div class="email-link">
+                <p>Možete mi se javiti i putem e-maila:</p>
+                <a href="mailto:lvincelj1@tvz.hr">Pošalji e-mail</a>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8618.208627608878!2d-87.68545036342606!3d41.8801367360911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d3ecaa9b54f%3A0xc8d7a49de23829df!2sChicago%20Bulls!5e1!3m2!1shr!2shr!4v1748988670779!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        
+    </main>
+    <footer>
+        <p> &copy; Leon Vincelj - 0246123908</p>
+    </footer>
+</body>
+</html>
