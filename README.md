@@ -1,33 +1,41 @@
-# Michael Jordan Website
+# Michael Jordan Website  
 
-This project is a simple **HTML & CSS website** dedicated to Michael Jordan, widely considered the greatest basketball player of all time.  
-It was created as a **university project** to demonstrate web design fundamentals.
-
----
-
-## 🌟 Features
-
-- **Homepage (Index)** – Introduction and key highlights of Michael Jordan's life and career.
-- **Contact** – Page with a simple contact form.
-- **About Us** – Short presentation of the project and its purpose.
-- **News** – Section/page with the latest updates, achievements, and historical milestones related to Michael Jordan.
-- **Store** – A product showcase with:
-  - At least **9 different items** (jerseys, shoes, collectibles, etc.)
-  - Each item has an **image, description, price, discount highlights, and a button**  
-  - **Flexbox layout** for organizing items  
-  - **Banner** at the top to promote offers
+Ovaj projekt je jednostavna **HTML i CSS web stranica** posvećena Michaelu Jordanu, jednom od najvećih košarkaša svih vremena.  
+Izrađena je kao **studentski seminarski rad** s ciljem demonstracije osnovnih koncepata izrade web stranica.  
 
 ---
 
-## 🛠️ Technologies Used
+## 🌟 Sadržaj stranice  
 
-- **HTML5** – For structuring the website  
-- **CSS3** – For styling and layout (including `float`, `position`, and `flexbox`)  
+- **Naslovnica (Index)** – Uvod i najvažniji trenuci iz Jordanove karijere.  
+- **Kontakt** – Stranica s jednostavnim kontakt obrascem.  
+- **O nama** – Kratka prezentacija projekta i njegova svrha.  
+- **Novosti (News)** – Stranica s vijestima, postignućima i povijesnim trenucima vezanim uz Michaela Jordana.  
+- **Trgovina (Store)** – Stranica s ponudom proizvoda:  
+  - Najmanje **9 artikala** (dresovi, tenisice, kolekcionarski predmeti)  
+  - Svaki artikl sadrži **sliku, opis, cijenu, naglašeni popust i gumb**  
+  - **Flexbox layout** za organizaciju proizvoda  
+  - **Banner** na vrhu za isticanje posebnih ponuda  
 
 ---
 
-The main purpose of this website is to:
-- Practice **HTML & CSS** layout techniques (`float`, `position`, and `flexbox`)  
-- Showcase **web design principles** such as navigation, banners, and product listing  
-- Provide a **thematic project** centered around a world-renowned athlete  
+## 🛠️ Korištene tehnologije  
 
+- **HTML5** – Struktura web stranice  
+- **CSS3** – Stilizacija i raspored elemenata (korišteni `float`, `position` i `flexbox`)  
+
+---
+
+## 🎯 Cilj projekta  
+
+- Vježbanje izrade web stranica korištenjem **HTML-a i CSS-a**  
+- Primjena različitih tehnika rasporeda (`float`, `position`, `flexbox`)  
+- Prezentacija web dizajna kroz **navigaciju, bannere i katalog proizvoda**  
+- Tematski rad posvećen poznatoj sportskoj osobi  
+
+---
+
+## ▶️ Pokretanje projekta  
+
+1. Preuzmite ili klonirajte repozitorij.  
+2. Otvorite datoteku `index.html` u bilo kojem web pregledniku.  
